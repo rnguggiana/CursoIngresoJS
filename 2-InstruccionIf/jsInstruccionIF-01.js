@@ -1,6 +1,11 @@
-function mostrar()
-{
-	//tomo la edad  
-	alert("ok");
+function mostrar() {
+	let edad; // Declaro la variable
 
-}//FIN DE LA FUNCIÓN
+	edad = parseInt(document.getElementById("txtIdEdad").value); // la convierto en un entero desde la caja de texto que corresponda
+
+	if (edad == 15) // == es el operador de relacion
+	{
+		alert("Niña Bonita");
+	}
+
+}
