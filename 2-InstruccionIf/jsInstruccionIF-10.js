@@ -5,17 +5,16 @@
 
 function mostrar()
 {
-	let numeroRandom;
+	let notaRandom;
 	
+	notaRandom = Math.floor(Math.random() * 10 + 1);
 
-    numeroRandom = Math.floor(Math.random() * 10 + 1);
-
-	if (numeroRandom <= 4){
-		alert("La nota de su examen es: " + numeroRandom + ". Vamos, la proxima se puede.");
-	} else if (numeroRandom > 4 && numeroRandom < 9) {
-		alert("La nota de su examen es: " + numeroRandom + ". APROBÓ.");
+	if (notaRandom <= 4){
+		alert("La nota de su examen es: " + notaRandom + ". Vamos, la proxima se puede.");
+	} else if (notaRandom > 4 && numeroRandom < 9) {
+		alert("La nota de su examen es: " + notaRandom + ". APROBÓ.");
 	} else {
-		alert("La nota de su examen es: " + numeroRandom + ". EXCELENTE.");
+		alert("La nota de su examen es: " + notaRandom + ". EXCELENTE.");
 	}
 
 }//FIN DE LA FUNCIÓN
