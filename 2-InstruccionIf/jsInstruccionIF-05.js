@@ -1,3 +1,5 @@
+//Al ingresar una edad solo debemos informar si la persona NO es adolescente.
+
 function mostrar()
 {
 	let edad; // Declaro la variable
@@ -12,7 +14,7 @@ function mostrar()
 }//FIN DE LA FUNCIÓN
 /* otra forma de resolverlo seria negando la condicion
 
-if (! (edad < 13 && edad >17)){
+if (! (edad < 13 && edad > 17)){
 
 		alert("Usted NO es adolescente");
 	}
