@@ -4,7 +4,7 @@ si es Marzo: "a clases!!!."
 si es Julio: "se vienen las vacaciones!!!."
 si es Diciembre: "Felices fiesta!!!." */
 
-function mostrar()
+function mostrar() 
 {
 	let mes; //Declaro variable
  
