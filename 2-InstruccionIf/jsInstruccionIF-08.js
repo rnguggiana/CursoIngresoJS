@@ -3,7 +3,7 @@
 //'Es soltero y no es menor.'
 
 function mostrar()
-{
+{  
 	let edad; // tomo la edad
 	let estadoCivil; // tomo el estadocivil de la caja desplegable
 

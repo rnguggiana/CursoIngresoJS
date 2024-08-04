@@ -4,14 +4,15 @@
 //"Vamos, la proxima se puede" para notas menores a 4
 
 function mostrar()
-{
+{ 
 	let notaRandom;
 	
 	notaRandom = Math.floor(Math.random() * 10 + 1);
 
+	
 	if (notaRandom <= 4){
 		alert("La nota de su examen es: " + notaRandom + ". Vamos, la proxima se puede.");
-	} else if (notaRandom > 4 && numeroRandom < 9) {
+	} else if (notaRandom > 4 && notaRandom < 9) {
 		alert("La nota de su examen es: " + notaRandom + ". APROBÓ.");
 	} else {
 		alert("La nota de su examen es: " + notaRandom + ". EXCELENTE.");
