@@ -6,8 +6,9 @@
 function mostrar()
 {
 	let numeroRandom;
+	
 
-    numeroRandom = Math.floor(Math.random() * 10) + 1;
+    numeroRandom = Math.floor(Math.random() * 10 + 1);
 
 	if (numeroRandom <= 4){
 		alert("La nota de su examen es: " + numeroRandom + ". Vamos, la proxima se puede.");
